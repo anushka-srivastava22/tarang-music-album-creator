@@ -1,0 +1,41 @@
+.toolbar{
+    margin: 4px;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title-logo{
+    padding-top: 5px;
+    height: 50px;
+}
+
+/* .title-name{
+    padding-left: 4px;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bold;
+    color: #D92A4C;
+} */
+
+.menu-item{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+}
+
+.active{
+    color: white;
+}

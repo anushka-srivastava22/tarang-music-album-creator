@@ -1,0 +1,22 @@
+
+<div class="body-area">
+    <app-home-header></app-home-header>
+    <div class="album-display-area">
+        <div class="card-row">
+            <div class="title-bar">
+                <p class="row-title">Tarang Playlists &nbsp;<i class="pi pi-refresh" matTooltip="Refresh" (click)="refresh()" style="cursor: pointer;"></i></p>
+                <a href="#" class="show-all-link">Show all</a>
+            </div>
+            <div class="card-container">
+                <span *ngFor="let music of results">
+                    <app-music-card [musicdetail]="music"></app-music-card>
+                    <!-- <p>{{location.city}}, {{location.state}}</p> -->
+                </span>
+            </div>
+            <!-- <div class="card-scroller">
+                <button class="card-scroller-button"><i class="pi pi-angle-right"></i></button>
+            </div> -->
+        </div>
+        <app-home-footer></app-home-footer>
+    </div>
+</div>

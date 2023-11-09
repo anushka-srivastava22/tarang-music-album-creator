@@ -1,0 +1,27 @@
+<div class="card">
+  <button class="add-music-button" aria-label="Example icon-button with add icon" matTooltip="Add Music" (click)="showDialog()">
+    <i class="pi pi-plus" style="font-size: 1 rem"></i>
+  </button>
+  <p-dialog header="Add your Music" [modal]="true" [(visible)]="visible" [style]="{width: '50vw'}" [maximizable]="true">
+    <form class="example-form" >
+      <mat-form-field class="example-full-width">
+        <mat-label>Song Title</mat-label>
+        <input matInput placeholder="Ex. Kal Ho Na Ho" [(ngModel)]="music.title" name="title">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Song Description</mat-label>
+        <textarea matInput placeholder="Ex. It will make you feel..." [(ngModel)]="music.description" name="description"></textarea>
+      </mat-form-field>
+
+      <br/>
+      <app-add-music-file></app-add-music-file>
+      <br/>
+      <app-add-music-cover-pic></app-add-music-cover-pic>
+      <br/>
+      <div class="add-music-submit-button" (click)="submitForm()">
+        <p-button label="Submit" type="submit"></p-button>
+      </div>
+    </form>
+  </p-dialog>
+</div>

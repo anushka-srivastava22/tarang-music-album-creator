@@ -1,0 +1,40 @@
+.card{
+    width: 150px;
+    margin: 6px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #151515;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #1e1e1e;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.description{
+    margin-top: 5px;
+    font-size: x-small;
+    line-height: normal;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.audio-bar{
+    width: 100%;
+}

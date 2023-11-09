@@ -1,0 +1,12 @@
+.main-page{
+    display: flex;
+}
+
+.navbar{
+    min-width: 300px;
+}
+
+.app-content{
+    min-width: 800px;
+    width: 100%;
+}

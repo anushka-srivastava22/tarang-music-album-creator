@@ -1,0 +1,23 @@
+.add-music-button{
+    padding: 6px 6px 4px 6px;
+    border-radius: 100%;
+    border: 1px solid rgba(220, 220, 220, 0.50);
+    background-color: #00000050;
+    cursor: pointer;
+}
+
+.add-music-button:hover{
+    box-shadow: 1px 1px 15px #FF408150;
+    border: 1px solid rgba(220, 220, 220);
+}
+
+.example-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-music-submit-button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

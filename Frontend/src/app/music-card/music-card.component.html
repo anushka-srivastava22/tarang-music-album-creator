@@ -1,0 +1,20 @@
+<div class="card" (click)="showDialog()">
+    <div class="image-container">
+        <img class="image" src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06"
+            alt="Today's Top Hits" />
+    </div>
+    <div>
+        <div class="title">
+            {{musicdetail?.title}}
+        </div>
+        <div class="description">
+            {{musicdetail?.description}}
+        </div>
+        <p-dialog header="Play Music" [(visible)]="visible" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false"
+            [resizable]="false">
+            <audio controls class="audio-bar">
+                <source [src]="musicdetail?.song" type="audio/mp3">
+            </audio>
+        </p-dialog>
+    </div>
+</div>

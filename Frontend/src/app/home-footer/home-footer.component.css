@@ -1,0 +1,46 @@
+.home-footer{
+    margin-top: 75px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.nav-links{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.section{
+    min-width: 162px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: small;
+}
+
+.section-content{
+    font-size: x-small;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.social-media-button{
+    padding: 6px 6px 4px 6px;
+    margin-right: 10px;
+    border-radius: 100%;
+    border: 1px solid rgba(220, 220, 220, 0.50);
+    background-color: #00000020;    
+}
+
+.copywrite{
+    margin: 20px;
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.75);
+}

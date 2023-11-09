@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/purple-green.css";
+/* @import "../../Frontend/src/custom-theme.scss"; */
+@import "primeicons/primeicons.css";
+/* @import "../node_modules/primeng/resources/themes/mira/theme.css"; */
+@import "../node_modules/primeng/resources/themes/md-dark-deeppurple/theme.css";
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(138deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0.01) 100%);
+}

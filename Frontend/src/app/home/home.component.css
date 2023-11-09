@@ -1,0 +1,52 @@
+.body-area {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.album-display-area{
+    padding-top: 10px;
+    background-color: #121212;
+    border-radius: 0px 0px 10px 10px;
+    height: 85vh;
+}
+
+.side-nav {
+    padding: 10px;
+}
+
+.content-area {
+    padding: 10px; 
+}
+
+.card-row{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-container{
+    display: block;
+}
+
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-title{
+    font-weight: bolder;
+    font-size: large;
+    letter-spacing: -0.8px;
+}
+
+.show-all-link{
+    font-weight: bolder;
+    font-size: 11px;
+    text-decoration: none;
+    color: #ffffff99;
+}

@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.home-header{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    background-color: #101010;
+    border-radius: 10px 10px 0px 0px;
+}
