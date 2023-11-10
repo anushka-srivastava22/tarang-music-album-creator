@@ -11,7 +11,6 @@ Tarang is a Music Album Creator that allows users to create and stream personali
 - **Song Uploading:** Easily upload and share your own music tracks on the platform.
 - **Music Playback:** Enjoy a smooth and immersive music playback experience.
 - **Album Creation:** Create and organize your music into personalized albums.
-- **User Authentication:** Register, log in, and personalize your music library with user accounts.
 - **Intuitive UI:** User-friendly design for easy navigation and an enjoyable music exploration.
 
 ## Project Screenshots
